@@ -26,7 +26,7 @@ int main() {
     double totalRevenueNeeded = totalExpenses + desiredProfitAmount;
 
     
-    double saleDiscount = 0.15; // 15% sale discount
+    double saleDiscount = 0.15;
     totalRevenueNeeded /= (1 - saleDiscount);
 
     double markupPercentage = (totalRevenueNeeded / merchandiseCost - 1) * 100;
